@@ -21,7 +21,8 @@ body {
 }
 
 h1 {
-    font-family: "palatino";
+    /*font-family: "palatino";*/
+    font-family: 'Piedra', cursive;
     font-size: 50px;
 }
 
