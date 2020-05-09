@@ -40,15 +40,18 @@ body {
       font-family: sans-serif;
   }
   .logo {
-      /* width: 20%;
-      display: block;
-      padding: 10px;*/
-        max-width: 150px;
-        float: left;
-        border: 2px solid #0343A2;
-        border-radius: 120px;
-    
+    max-width: 150px;
+    float: left;
+    border: 2px solid #0343A2;
+    border-radius: 120px;
   }
+  .logo2 {
+    width: 20%;
+    display: block;
+    padding: 10px;
+       
+  }
+  
   .grid {
     display: grid;
     grid-template-columns: 1fr;
