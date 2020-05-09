@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+}
