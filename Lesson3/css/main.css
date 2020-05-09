@@ -7,16 +7,16 @@ body {
     align-items: center;
     justify-items: center;
     color: white;
-    background-color: #4A6D7C;
+    background-color: rgb(34, 31, 206);
     padding: 10px;
   }
   nav {
-    background-color: #FF8552;
+    background-color: rgb(212, 212, 230);
     text-align: center;
   }
   nav a{
     font-size: 20px;
-    color: #297373;
+    color: rgb(34, 31, 206);
   }
   nav ul {
     list-style-type: none;
@@ -29,11 +29,11 @@ body {
   }
   h1,h2,h3,h4 {
       font-family: 'Roboto Condensed', sans-serif;
-      text-align: center;
+      text-align: left;
   }
   p {
       font-family: domine;
-      text-align: center;
+      text-align: left;
     }
   ul {
       font-family: domine;
@@ -57,7 +57,7 @@ body {
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #4A6D7C;
+    background-color: rgb(34, 31, 206);
     color: white;
   }
   
