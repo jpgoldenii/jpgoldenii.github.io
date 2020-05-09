@@ -51,7 +51,7 @@ header {
 
 #nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 1.25rem auto;
     padding: 0;
     overflow: hidden;
     background-color: rgb(29, 27, 27);
