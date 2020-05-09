@@ -27,11 +27,7 @@ body {
     padding: 1rem;
     font-size: 1.5em;
   }
-
-  nav ul li a:hover {
-    background-color: #111;
-    color: gold;
-}
+  
   h1,h2,h3,h4 {
       font-family: 'Roboto Condensed', sans-serif;
       text-align: left;
