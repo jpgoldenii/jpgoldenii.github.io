@@ -34,7 +34,7 @@ header, footer {
     flex: 0 1 100%;
     font-size: 1rem;
     color: whitesmoke;
-    background-color: darkred;
+    background-color: rgb(55, 43, 165);
     margin: 1.25rem auto;
     max-width: 66em;
     border-radius: 8px;
@@ -54,7 +54,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(29, 27, 27);
     border-radius: 6px;
 }
   
@@ -69,13 +69,12 @@ header {
   
 #nav ul li a:hover {
     background-color: #111;
-    color: gold;
+    color: rgb(200, 201, 176);
 }
 
 .active {
-    background-color: gold;
-    color: black;
-    font-weight: bold;
+    background-color: #111;
+    color:rgb(200, 201, 176);;
 }
 
 #audience_list {
