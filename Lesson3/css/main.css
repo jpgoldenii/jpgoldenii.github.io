@@ -72,10 +72,10 @@ header {
     color: rgb(200, 201, 176);
 }
 
-.active {
+<!-- .active {
     background-color: #111;
     color:rgb(200, 201, 176);;
-}
+} -->
 
 #audience_list {
     text-indent: 2rem;
