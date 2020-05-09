@@ -54,6 +54,28 @@ body {
     margin: 10px;
     padding: 10px;
   }
+  img {
+    width: 150px;
+}
+
+header, footer {
+    flex: 0 1 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(34, 31, 206);;
+    margin: 1.25rem auto;
+    max-width: 66em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header img {
+    float: left;
+}
+
+header {
+    padding: 4em;
+  
   footer {
     text-align: center;
     padding: 20px;
