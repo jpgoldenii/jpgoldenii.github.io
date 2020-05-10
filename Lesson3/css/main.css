@@ -70,7 +70,7 @@ body {
   }
   
   
-  /*Color Table*/
+  /* Color Table */
   .colors {
       width: 50%;
       min-width: 350px;
@@ -88,11 +88,11 @@ body {
       background-color: #ffffff;
     }
     .secondary {
-      background-color: #4A6D7C;
+      background-color: rgb(34, 31, 206);
     }
     .accent1 {
-      background-color:#297373;
+      background-color:rgb(34, 31, 206);
     }
     .accent2{
-      background-color: #FF8552;
+      background-color: rgb(212, 212, 230);
     }
