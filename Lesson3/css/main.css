@@ -4,8 +4,8 @@ body {
   }
   .title {
     text-align: center;
-    align-items: left;
-    justify-items: left;
+    align-items: center;
+    justify-items: center;
     color: white;
     background-color: rgb(34, 31, 206);
     padding: 10px;
