@@ -48,7 +48,7 @@ body {
   .logo2 {
     width: 20%;
     display: block;
-    float: center;
+    align-items: center;
     padding: 10px;
        
   }
