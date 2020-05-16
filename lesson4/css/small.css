@@ -1,0 +1,110 @@
+header{
+    background-color:#022B3A;
+    color: #7C8483; 
+    padding: 5px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+footer{
+    background-color:#022B3A;
+    color: #7C8483; 
+    padding: 5px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+header img{
+    width: 100px;
+    height: auto;
+}
+.logo h1 {
+    color: #00a99d;
+    font-size: 1.6rem;
+    padding: 0;
+}
+.logo h3 {
+    color: #7C8483;
+    padding: 0 0 0 15px; 
+}
+
+body {
+    max-width: 100%;
+    background-color: #8DA7BE;
+}
+main {
+    background-color: #E0F2E9;
+    padding: 50px;
+    margin: 0;
+}
+h1{
+    font-family: "Roboto Condensed", "serif";
+    font-style: italic;
+    font-weight: 700;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", "serif";
+    font-weight: 700;
+}
+p{
+    font-family: "Open Sans", "sans serif"; 
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #022B3A; 
+}
+nav{
+    background-color: #8DA7BE;
+    font-size: 1.5em;
+
+}
+nav ul {
+    list-style-type: none;
+    color: #022B3A;
+    padding:0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #E0F2E9;
+
+}
+nav a:link, nav a:visited {
+    color: #022B3A;
+}
+nav a:hover {
+    color: #022B3A ;
+    background-color: #00a99d;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid;
+   
+}
+nav ul li .active{
+    background-color: #00a99d, -.4;
+    color: white;
+}
+nav ul.hide{
+    display:none;
+}
+.contentBox{
+    background-color: #8DA7BE ;
+    border: 2px dotted #022B3A;
+    padding: 10px;
+    margin: 10px 0;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
