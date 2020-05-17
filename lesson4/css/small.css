@@ -1,42 +1,25 @@
- body{
+body{
     max-width: 100%;
     font-size: 22px;
     padding: 0;
     margin: 0;
 }
-/*header {
-    color: #4A6D7C;
-    background-color: #B4D3D8;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}*/
-/*header img {
-    width: 80px;
-    height: auto;
-    border-radius: 100px;
-}
-*/
+
 .logo {
     max-width: 100px;
     height: auto;
     border: 10px solid black;
     border-radius: 100px;
-    background-color: #ebffdd;
 }
 
 header {
-    background-color: #10BBCC;
+    color: white;
+    background-color: rgb(6, 67, 158);
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-/*header {
-    padding-top: 10px;
-}*/
-
+}
 
 .headings {
     display: flex;
@@ -49,7 +32,7 @@ headings h1 {
 
 nav {
     margin: 0 auto;
-    background-color: #FF8552;
+    background-color: rgb(133, 111, 102);
   
   }
   .navigation {
@@ -92,6 +75,6 @@ footer{
     color: white;
     font-size: 20px;
     text-align: center;
-    background-color: #4A6D7C;
+    background-color: rgb(6, 67, 158);
     padding: 1rem;
 }
