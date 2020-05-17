@@ -21,14 +21,21 @@
 .logo {
     max-width: 100px;
     height: auto;
-    border: 15px solid black;
+    border: 10px solid black;
     border-radius: 100px;
     background-color: #ebffdd;
 }
 
 header {
+    background-color: #10BBCC;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*header {
     padding-top: 10px;
-}
+}*/
 
 
 .headings {
