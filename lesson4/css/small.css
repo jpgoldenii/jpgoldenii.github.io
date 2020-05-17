@@ -104,7 +104,11 @@ nav ul li .active{
 nav ul.hide{
     display:none;
 }
-
+#button {
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+}
 .responsive li {
     display: block;
 }
