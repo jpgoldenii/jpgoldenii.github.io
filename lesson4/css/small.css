@@ -55,7 +55,7 @@ nav {
     font-weight: 700;
   }
   .navigation a:hover {
-    color: #297373;
+    color: #aaa9a5;
     background-color: white;
   }
   .responsive li {
@@ -66,7 +66,7 @@ nav {
 .contentbox {
     border: 1px dashed black;
     font-size: 2rem;
-    background-color: #E1FBFB;
+    background-color: rgb(71, 128, 233);
     margin: 10px;
     padding: 10px;
 }
