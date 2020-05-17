@@ -22,9 +22,9 @@
             </section>
         </header>
         
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="menuButton" class="hide">
+        <nav>
+            <ul class="navigation responsive">
+                <li><a class="burger" href="#">&#9776; Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li class="active"><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -51,8 +51,9 @@
         <footer>
             &copy; 2020 | Jim Golden | North Carolina
                 <br>
-                Last Updated: <span id="updated"></span>
+                Last Updated: <div id="date"></div>
         </footer>
-        <script src="js/updated.js"></script>
+        <script src="javascript/hamburger.js"></script>
+        <script src="js/currentdate.js"></script>
     </body>
 </html>
