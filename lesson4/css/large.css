@@ -1,20 +1,37 @@
-@media only screen and (min-width: 64rem) {
-    nav button{ 
-        display: none;
+  
+@media only screen and (min-width: 60em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
     }
-    nav ul.hide {
+    
+    .navigation {
         display: flex;
+      }
+    
+      .navigation li {
+        display: block;
+        flex: 1 1 auto;
+      }  
+      .navigation a {
+        text-align: center;
+      }
+      .navigation li:first-child {
+        display: none;
+      }
+
+	
+    .contentbox {
+        color: white;
+        background-color:rgb(21, 70, 85);
     }
-    nav ul {
-        margin-left: 2%;
+
+    main, footer {
+     width: 90%;
+     margin: auto;
+     text-align: center;
     }
-    nav ul li {
-        float: left;
-    }
-    nav ul li a{
-        border:none;
-        border-right: 1px solid;
-        padding: .6rem 1rem;
-    }
-        
 }

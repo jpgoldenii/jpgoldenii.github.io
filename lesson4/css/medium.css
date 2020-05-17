@@ -1,18 +1,38 @@
 
-@media only screen and (min-width: 35rem) {
-    nav button{ 
-        display: none;
-    }
-    nav ul.hide {
-        display: flex;
-    }
-    nav ul {
-        margin-left: 2%;
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
     }
     
-    nav ul li a{
-        border:none;
-        border-right: 1px solid;
-        padding: .6rem 1rem;
+    .navigation {
+        display: flex;
+        max-width: 80%;
+      }
+    
+      .navigation li {
+        display: block;
+        flex: 1 1 auto;
+      }  
+      .navigation a {
+        text-align: center;
+      }
+      .navigation li:first-child {
+        display: none;
+      }
+
+	
+    .contentbox {
+        color: white;
+        background-color:#7799A3;
+    }
+
+    main, footer {
+     width: 60%;
+     margin: auto;
+     text-align: center;
     }
 }
