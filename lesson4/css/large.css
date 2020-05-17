@@ -20,12 +20,6 @@
         display: none;
       }
 
-	
-    .contentbox {
-        color: white;
-        background-color:rgb(21, 70, 85);
-    }
-
     main, footer {
      width: 90%;
      margin: auto;
