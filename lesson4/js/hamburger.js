@@ -1,3 +1,6 @@
-const hambutton = document.querySelector('.burger');
-const mainnav = document.querySelector('.navigation')
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+const hambutton = document.querySelector(".burger");
+hambutton.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+  document.querySelector(".navigation").classList.toggle("responsive");
+}
