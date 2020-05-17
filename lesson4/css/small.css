@@ -64,7 +64,7 @@ nav {
  
 
 .contentbox {
-    border: 1px solid black;
+    border: 1px dashed black;
     font-size: 2rem;
     background-color: #E1FBFB;
     margin: 10px;
