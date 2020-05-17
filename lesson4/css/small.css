@@ -4,14 +4,14 @@
     padding: 0;
     margin: 0;
 }
-header {
+/*header {
     color: #4A6D7C;
     background-color: #B4D3D8;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content:center;
-}
+}*/
 /*header img {
     width: 80px;
     height: auto;
@@ -19,10 +19,20 @@ header {
 }
 */
 .logo {
-    max-width: 150px;
-    float: left;
-    border: 2px solid #0343A2;
-    border-radius: 120px;
+    max-width: 250px;
+    height: auto;
+    border: 15px solid #82bc00;
+    border-radius: 100px;
+    background-color: #ebffdd;
+}
+
+header {
+    padding-top: 10px;
+}
+
+.pagename {
+    display: flex;
+    flex-direction: column;
 }
 .headings {
     display: flex;
@@ -64,7 +74,10 @@ nav {
   .responsive li {
     display: block;
   }
-
+  #slogan {
+    letter-spacing: 1.5pt;
+    font-size: 1.5em;  
+  }
 
 .contentbox {
     border: 1px solid black;
