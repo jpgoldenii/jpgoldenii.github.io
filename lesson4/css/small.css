@@ -19,13 +19,14 @@ footer{
 header img{
     width: 100px;
     height: auto;
+    border-radius: 120px;
 }
-.motto h1 {
+.logo h1 {
     color: #00a99d;
     font-size: 1.6rem;
     padding: 0;
 }
-.motto h3 {
+.logo h3 {
     color: #7C8483;
     padding: 0 0 0 15px; 
 }
@@ -40,12 +41,12 @@ main {
     margin: 0;
 }
 h1{
-    font-family: "PT Serif", "serif";
-    font-style: italic;
+    font-family: "Roboto Condensed", "serif";
+    font-style: normal;
     font-weight: 700;
 }
 h2, h3, h4, h5, h6 {
-    font-family: "PT Serif", "serif";
+    font-family: "Roboto Condensed", "serif";
     font-weight: 700;
 }
 p{
