@@ -18,6 +18,12 @@ header img {
     height: auto;
     border-radius: 120px;
 }
+.logo {
+    max-width: 150px;
+    float: left;
+    border: 2px solid #0343A2;
+    border-radius: 120px;
+  }
 .headings {
     display: flex;
     flex-direction: column;
