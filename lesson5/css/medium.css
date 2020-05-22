@@ -1,0 +1,30 @@
+
+@media only screen and (min-width: 32.5em) {
+
+	.headings h1 {
+		font-size: 3rem;
+    }
+    
+    .navigation {
+        display: flex;
+        max-width: 80%;
+      }
+    
+      .navigation li {
+        display: block;
+        flex: 1 1 auto;
+      }  
+      .navigation a {
+        text-align: center;
+      }
+      .navigation li:first-child {
+        display: none;
+      }
+
+
+    main, footer {
+     width: 60%;
+     margin: auto;
+     text-align: center;
+    }
+}
