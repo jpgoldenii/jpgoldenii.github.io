@@ -21,6 +21,9 @@
   .navigation li:first-child {
     display: none;
   }
+.weathersum {
+  font-size: .7em;
+}
 
   .contactus {
     width: 95%;

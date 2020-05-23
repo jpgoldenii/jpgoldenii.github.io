@@ -107,7 +107,7 @@ nav {
   padding: 1rem 2.5rem;
   box-shadow: 0 10px 25px #b1dac3;
   opacity: .9;
-  font-size: .9em;
+  font-size: .5em;
   text-align: left;
 }
 
@@ -115,7 +115,6 @@ nav {
   position: relative;
   margin: 10px auto;
 }
-
 table {
   margin: auto;
   width: 75%;
@@ -141,10 +140,6 @@ th {
 
 td {
   background-color: white;
-}
-
-.forecast {
-  display: none;
 }
 
 .article {

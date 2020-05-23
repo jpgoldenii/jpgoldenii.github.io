@@ -19,7 +19,11 @@
       .navigation li:first-child {
         display: none;
       }
-
+    
+      .weathersum {
+        font-size: 1em;
+      }
+     
     main, footer {
      width: 90%;
      margin: auto;
