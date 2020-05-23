@@ -1,81 +1,201 @@
-body{
-    max-width: 100%;
-    font-size: 22px;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 0;
-    margin: 0;
+body {
+  max-width: 100%;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-    max-width: 100px;
-    height: auto;
-    border: 10px solid black;
-    border-radius: 100px;
+  max-width: 100px;
+  height: auto;
+  border: 10px solid black;
+  border-radius: 100px;
 }
 
 header {
-    color: white;
-    background-color: rgb(6, 67, 158);
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: white;
+
+  background: radial-gradient(rgb(6, 67, 158), rgb(5, 12, 78));
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .headings {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
 headings h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#pancakes {
+  text-align: center;
+  font-style: italic;
+  padding: 15px;
+  border: 1px solid;
+  color: black;
+  background-color: rgb(224, 180, 35);
 }
 
 nav {
-    margin: 0 auto;
-    background-color: rgb(117, 114, 112);
-  
-  }
-  .navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-  }
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-  }
-  .navigation a:hover {
-    color: #6d6c6a;
-    background-color: white;
-  }
-  .responsive li {
-    display: block;
-  }
- 
-
-.contentbox {
-    border: 1px dashed black;
-    font-size: 2rem;
-    background-color: rgb(168, 197, 250);
-    margin: 10px;
-    padding: 10px;
+  margin: 0 auto;
+  /*background-color: rgb(117, 114, 112);*/
+  background: radial-gradient(rgb(104, 101, 100), rgb(54, 53, 52));
+  text-align: center;
 }
 
-footer{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(6, 67, 158);
-    padding: 1rem;
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: #6d6c6a;
+  background-color: white;
+}
+
+.active {
+  background-color: rgba(8, 8, 8, 0.2);
+}
+
+.responsive li {
+  display: block;
+}
+
+.herodiv {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.herodiv img {
+  width: 100%;
+  border: 2px solid #022B3A;
+}
+
+.weathersum {
+  position: absolute;
+  margin-right: 35px;
+  top: 35px;
+  left: 35px;
+  background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
+  border: 1px solid #0083c6;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 10px 25px #b1dac3;
+  opacity: .9;
+  font-size: .9em;
+  text-align: left;
+}
+
+.heromain {
+  position: relative;
+  margin: 10px auto;
+}
+
+table {
+  margin: auto;
+  width: 75%;
+}
+
+table,
+th,
+td {
+  border: 1px solid navy;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+}
+
+th {
+  background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
+}
+
+td {
+  background-color: white;
+}
+
+.forecast {
+  display: none;
+}
+
+.article {
+  text-align: left;
+  width: 95%;
+  margin: 50px auto;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+
+  border: 1px solid navy;
+  padding: 0 20px;
+}
+
+#articleimg {
+  display: block;
+  margin: 10px auto;
+  width: 320px;
+  height: 200px;
+  float: right;
+  padding: 10px;
+  box-shadow: 0 0 20px gray;
+}
+
+#title {
+  text-align: center;
+}
+
+#author {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+.contactus {
+  width: 95%;
+  clear: both;
+  display: grid;
+  margin: 40px;
+}
+
+section.contact {
+
+  align-self: center;
+  margin-left: 100px;
+}
+
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(6, 67, 158);
+  padding: 1rem;
 }

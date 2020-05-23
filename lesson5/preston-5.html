@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,49 +13,112 @@
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
-    <body>
-        <header>
-            <picture>
-                <img class="logo" src="images/logo-512.png" alt="Weather Site Logo">
-            </picture>
-            <section>
-                <h1>The Stormy Weather Center</h1>
-                <h2>"You've Been Thunderstruck"</h2>
-            </section>
-        </header>
-        
-        <nav>
-            <ul class="navigation">
-                <li><a class="burger" href="#">&#9776; Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1>Preston Idaho</h1>
-            <div class="contentbox">
-                <p>Hero w/ Weather Message</p>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="images/logo-512.png" alt="Weather Site Logo">
+        </picture>
+        <section>
+            <h1>The Stormy Weather Center</h1>
+            <h2>"You've Been Thunderstruck"</h2>
+        </section>
+    </header>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.</div>
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <!-- <li><a href="#">Preston</a></li> -->
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="herodiv">
+            <div class="heromain">
+                <img src="images/bench6.png" alt="hero picture">
+                <section class="weathersum">
+                    <h3> Weather Summary</h3>
+                    <p>Currently: Sunny</p>
+                    <p>High: 73&#176; F </p>
+                    <p>Wind Chill: 5&#176; F</p>
+                    <p>Humidty: 54%</p>
+                    <p>Wind Speed: 6 mph</p>
+                </section>
             </div>
-            <div class="contentbox">
-                <p>5 Day Forecast</p>
-            </div>
-            <div class="contentbox">
-                <p>Article</p>
-            </div>
-            <div class="contentbox">
-                <p>Contact Us</p>
-            </div>
-        </main>
-        <footer>
-            &copy; 2020 | Jim Golden | North Carolina
+        </div>
+
+        <table id="forecast">
+            <h3>5 Day Forecast</h3>
+            <tr>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+            </tr>
+            <tr>
+                <td id="fri"><img src="images/sunny.png" alt="sun" width="60" height="60">76°F</td>
+                <td id="sat"><img src="images/sunny.png" alt="sun" width="60" height="60">79°F</td>
+                <td id="sun"><img src="images/rain.png" alt="rain" width="60" height="60">80°F</td>
+                <td id="mon"><img src="images/partiallycloudy.png" alt="partlycloudy" width="60" height="60">72°F</td>
+                <td id="tue"><img src="images/partiallycloudy.png" alt="partiallycloudy" width="60" height="60">71°F
+                </td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="article">
+            <img id="articleimg" src="images/mantemp2.png" alt="taking temperature">
+            <h3 id="title">Crowned King of Corona</h3>
+            <div id="author">By Jim Golden</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odit veniam laudantium incidunt at
+                doloremque similique explicabo non ad maxime, voluptate nobis nulla rerum enim iure id ipsa quod
+                ducimus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi, sit doloribus iste ut laudantium
+                pariatur adipisci recusandae blanditiis. Deleniti doloribus iusto sit explicabo nulla! Aliquid et vel
+                esse repellendus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam laudantium nemo sed quaerat est
+                excepturi amet quas quam nulla voluptatum, quisquam dolores accusamus adipisci saepe incidunt. Facilis,
+                culpa dolores.</p>
+        </div>
+
+        <div class="contactus">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d313068.70527094067!2d-111.78790633664951!3d42.07317587024763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1589946932335!5m2!1sen!2sus"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <section class="contact">
+                <img src="images/pin.png" alt="Google Map Pin"><span> 30 N 1st E</span>
+                <br>Preston, ID 83263
                 <br>
-                <div id="date"></div>
-        </footer>
-        <script src="js/hamburger.js"></script>
-        <script src="js/currentdate.js"></script>
-    </body>
+                <br>&phone; (208)555.1234
+                <br>&#9993; info@Stormyweather.com
+
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedin.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina
+        <br>
+        <div id="date"></div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+</body>
+
 </html>
