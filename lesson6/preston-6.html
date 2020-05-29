@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Site for Preston, Idaho</title>
+    <meta name="description" content="WDD 230 Weather Site - Preston, Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="images/logo-100.jpg" alt="Weather Site Logo">
+        </picture>
+        <section>
+            <h1>The Stormy Weather Center</h1>
+            <h3>"You've Been Thunderstruck"</h3>
+        </section>
+    </header>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.</div>
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <section class="heromain">
+            <picture class="l6photo">
+                <source media="(min-width: 250px) and (max-width: 500px)" srcset="images/l6image350.jpg">
+                <source media="(min-width: 501px) and (max-width: 799px)" srcset="images/l6image700.jpg">
+                <source media="(min-width: 800px)" srcset="images/l6image900.jpg">
+                <img id="heroimg" src="images/l6imageoriginal.jpeg" alt="Lesson6 Image">
+            </picture>
+            <section class="weathersum">
+                <h3> Weather Summary</h3>
+                <p>Currently: Sunny</p>
+                <p>Temp: <span id="temperature">34</span>&#176; F </p>
+                <p>Wind Chill: <span id="chill"></span>&#176; F</p>
+                <p>Humidty: 52%</p>
+                <p>Wind Speed: <span id="windspeed">11</span> mph</p>
+            </section>
+        </section>
+
+        <table id="forecast">
+            <h3>5 Day Forecast</h3>
+            <tr>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+            </tr>
+            <tr>
+                <td id="fri"><img src="images/sunny.png" alt="sun" width="60" height="60">76°F</td>
+                <td id="sat"><img src="images/sunny.png" alt="sun" width="60" height="60">79°F</td>
+                <td id="sun"><img src="images/rain.png" alt="rain" width="60" height="60">80°F</td>
+                <td id="mon"><img src="images/partiallycloudy.png" alt="partlycloudy" width="60" height="60">72°F</td>
+                <td id="tue"><img src="images/partiallycloudy.png" alt="partiallycloudy" width="60" height="60">71°F
+                </td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="article">
+            <img id="articleimg" src="images/mantemp2.png" alt="taking temperature">
+            <h3 id="title">Crowned King of Corona</h3>
+            <div id="author">By Jim Golden</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odit veniam laudantium incidunt at
+                doloremque similique explicabo non ad maxime, voluptate nobis nulla rerum enim iure id ipsa quod
+                ducimus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi, sit doloribus iste ut laudantium
+                pariatur adipisci recusandae blanditiis. Deleniti doloribus iusto sit explicabo nulla! Aliquid et vel
+                esse repellendus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam laudantium nemo sed quaerat est
+                excepturi amet quas quam nulla voluptatum, quisquam dolores accusamus adipisci saepe incidunt. Facilis,
+                culpa dolores.</p>
+        </div>
+
+        <div class="contactus">
+
+            <img src="images/googlemap.jpg" alt="Google Map">
+
+            <section class="contact">
+                <img src="images/pin.png" alt="Google Map Pin"><span> 30 N 1st E</span>
+                <br>Preston, ID 83263
+                <br>
+                <br>&phone; (208)555.1234
+                <br>&#9993; info@Stormyweathercenter.com
+
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedIn.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina
+        <br>
+        <div id="date"></div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
