@@ -6,7 +6,6 @@
 
   .navigation {
     display: flex;
-    /*max-width: 80%;*/
   }
 
   .navigation li {
@@ -21,9 +20,17 @@
   .navigation li:first-child {
     display: none;
   }
-.weathersum {
-  font-size: .7em;
-}
+
+  .weathersum {
+    font-size: .5em;
+  }
+
+  .forecast {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+  }
 
   .contactus {
     width: 95%;

@@ -86,38 +86,41 @@ nav {
 
 
 
-#heroimg{
+#heroimg {
   width: 100%;
-  padding: 0;
+  height: auto;
 }
-.heromain{
+
+.heromain {
   margin: 10px auto;
   position: relative;
+  width: 80%;
 }
-.weathersum{
+
+.weathersum {
   position: absolute;
   margin-right: 35px;
   top: 35px;
   left: 35px;
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
   border: 1px solid #0083c6;
-  padding: 1rem 2.5rem;
+  padding: .5rem 1rem;
   box-shadow: 0 10px 25px #b1dac3;
   opacity: .9;
-  font-size: .5em;
+  font-size: .4em;
   text-align: left;
-  
+
 }
-picture.l6photo{
+
+picture.l6photo {
   display: block;
   width: 96%;
   margin: 0 2%;
-  }
-
+}
 
 table {
   margin: auto;
-  width: 75%;
+  width: auto;
 }
 
 table,
@@ -135,12 +138,24 @@ td {
 }
 
 th {
+
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
 }
 
 td {
   background-color: white;
 }
+
+td img {
+  border-radius: 30px;
+}
+
+.forecast {
+  display: none;
+}
+
+
+
 
 .article {
   text-align: left;
