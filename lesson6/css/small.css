@@ -84,8 +84,6 @@ nav {
   display: block;
 }
 
-
-
 #heroimg {
   width: 100%;
   height: auto;
@@ -101,10 +99,10 @@ nav {
   position: absolute;
   margin-right: 35px;
   top: 35px;
-  left: 35px;
+  left: 50px;
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
   border: 1px solid #0083c6;
-  padding: .5rem 1rem;
+  padding: .3rem 1rem;
   box-shadow: 0 10px 25px #b1dac3;
   opacity: .9;
   font-size: .4em;
@@ -154,9 +152,6 @@ td img {
   display: none;
 }
 
-
-
-
 .article {
   text-align: left;
   width: 95%;
@@ -195,10 +190,13 @@ td img {
   margin: 40px;
 }
 
+#map {
+  display: none;
+}
+
 section.contact {
 
   align-self: center;
-  margin-left: 100px;
 }
 
 
