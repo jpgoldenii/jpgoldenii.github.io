@@ -1,0 +1,17 @@
+ .progressive {
+     display: grid;
+     justify-content: center;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ picture img[data-src] {
+     filter: blur(0.2em);
+ }
+
+ picture img {
+     padding: 3px;
+     transition: filter 0.5s;
+ }

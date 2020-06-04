@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W07 Progressive Loading Assignment</title>
+    <meta name="description" content="WDD 230 - Lazing Loading of Images">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+
+
+</head>
+
+<body>
+    <main>
+        <div class="progressive">
+            <h1>Lazing Loading</h1>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/firepit.jpg" alt="Fire in Street">
+            </picture>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/manmask.jpg" alt="Covid-19 Mask">
+            </picture>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/monalisa.jpg" alt="The Mona Lisa">
+            </picture>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/hands.jpg" alt="Two Hands">
+            </picture>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/graduate.jpg" alt="Graduation">
+            </picture>
+            <picture>
+                <img src="images/placeholder300x400.jpg" data-src="images/officedesk.jpg" alt="Working from Home">
+            </picture>
+        </div>
+    </main>
+    <script src="js/lazy.js"></script>
+</body>
+
+</html>
