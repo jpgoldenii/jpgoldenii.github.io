@@ -1,0 +1,33 @@
+@media only screen and (min-width: 32.5em) {
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .weathergallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+figure {
+    margin: 0;
+    
+}
