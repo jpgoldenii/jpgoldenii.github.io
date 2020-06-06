@@ -45,7 +45,7 @@ headings h1 {
 
 nav {
   margin: 0 auto;
-  background: radial-gradient(rgb(104, 101, 100), rgb(54, 53, 52));
+  background: radial-gradient(rgb(109, 106, 104), rgb(82, 80, 79));
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ nav {
 }
 
 .active {
-  background-color: rgba(8, 8, 8, 0.2);
+  background-color: rgba(3, 2, 2, 0.2);
 }
 
 .responsive li {
