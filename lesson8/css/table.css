@@ -14,7 +14,7 @@ thead,
 tr,
 th,
 td {
-    border: 1px solid black;
+    border: 1.9px solid rgb(190, 184, 184);
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
@@ -43,6 +43,9 @@ tr {
     background-color: #e7f0ed;
 }
 
+.novgoal {
+    background-color: #628ca6;
+}
 b:only-child {
     color: white;
 }
