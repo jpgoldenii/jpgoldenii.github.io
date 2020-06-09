@@ -84,13 +84,19 @@ nav {
   display: block;
 }
 
+.weathergallery{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(1, 1fr);
+   justify-content: center;
+   width: 100%;
+   margin: 1rem auto;
+}
+
 figure {
-  margin: 0;
   background-color: white;
   padding: 10px;
   text-align: center;
-  margin: 15px;
-  
 }
 
 figcaption{
