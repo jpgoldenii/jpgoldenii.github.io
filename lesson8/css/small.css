@@ -1,0 +1,200 @@
+body {
+  max-width: 100%;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 100px;
+}
+
+header {
+  color: white;
+
+  background: radial-gradient(rgb(6, 67, 158), rgb(5, 12, 78));
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#pancakes {
+  text-align: center;
+  font-style: italic;
+  padding: 15px;
+  border: 1px solid;
+  color: black;
+  background-color: rgb(224, 180, 35);
+}
+
+nav {
+  margin: 0 auto;
+  background: radial-gradient(rgb(109, 106, 104), rgb(82, 80, 79));
+  text-align: center;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: #6d6c6a;
+  background-color: white;
+}
+
+.active {
+  background-color: rgba(3, 2, 2, 0.2);
+}
+
+.responsive li {
+  display: block;
+}
+
+h2 {
+
+  margin: 50px 0 30px 0;
+  color: #0343A2;
+  font-family: Roboto, sans-serif;
+  font-size: 1.75rem;
+}
+
+form fieldset {
+  margin: 2rem .5rem;
+  text-align: left;
+  max-width: 26rem;
+  border: 1px solid #0343A2;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #0343A2;
+  text-align: left;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+
+
+  font-family: "Open Sans", sans-serif;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: #0343A2;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 2px navy;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  width: 96%;
+  max-width: 20rem;
+  background-color: rgb(230, 223, 223);
+}
+
+
+form label.info {
+  display: block;
+  padding: .6rem 0;
+  color: #0343A2;
+}
+
+form .info {
+  font-family: "Open Sans", sans-serif;
+}
+
+form textarea {
+  font-family: "Open Sans", sans-serif;
+  color: #0343A2;
+  border: solid 2px navy;
+  border-radius: 6px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+  margin-bottom: 1%;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(211, 18, 18);
+  color: whitesmoke;
+  border-radius: .5rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  box-shadow: 1px 1px 1px;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+#ratingvalue {
+  margin: 0 25px;
+}
+
+form label.meter {
+  color: rgb(15, 38, 139);
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(6, 67, 158);
+  padding: 1rem;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
