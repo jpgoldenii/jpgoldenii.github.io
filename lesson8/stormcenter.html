@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Storm Center for Preston, Idaho</title>
+    <title>Storm Center for Southeast Idaho</title>
     <meta name="description" content="WDD 230 Weather Site - Storm Center">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalized.css">
@@ -42,7 +42,7 @@
         <form action="thanks.html" method="get">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z].{1,}" required ></label>
+                <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z].{1,}" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" pattern="[A-Za-z].{2,}" required></label>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
                 <label class="top">Zip Code* <input type="number" name="zipcode" required></label>
@@ -53,22 +53,21 @@
                 <legend>Storm Details</legend>
                 <label class="top">Storm Date <input type="date" name="stormdate"></label>
                 <label class="top">Type of Storm<input list="stormtype"></label>
-                    <datalist id="stormtype">
-                        <option value="">Select Type &#9662;</option>
-                        <option value="Flash Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
-                    </datalist>
-                </label>
+                <datalist id="stormtype">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
 
                 <label class="meter">Storm Severity (1 to 10)&nbsp; <input type="range" id="rating" value="5" min="1"
-                        max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">5</span>
+                        max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)"
+                        onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
                 </label>
 
-               
+
                 <datalist id="tickmarks">
                     <option value="1">
                     <option value="2">
