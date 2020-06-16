@@ -17,6 +17,7 @@ header {
     border-radius: 5px;
     background-color: rgb(231, 228, 228);
     font-family: 'Bree Serif', serif;
+    
 }
 
 section {
@@ -25,6 +26,7 @@ section {
     justify-content: center;
     background-color: rgb(187, 187, 202);
     line-height: 0px;
+    border: 2px solid rgb(73, 88, 175);
 }
 
 h2,
