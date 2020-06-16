@@ -20,8 +20,8 @@ fetch(requestURL)
             alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
             image.setAttribute('src', prophets[i].imageurl);
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            bDay.textContent = 'Birthdate: ' + prophets[i].birthdate;
-            bPlace.textContent = 'Birthplace: ' + prophets[i].birthplace;
+            bDay.textContent = 'Date of Birth: ' + prophets[i].birthdate;
+            bPlace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
 
             card.appendChild(h2);
             card.appendChild(alt);
