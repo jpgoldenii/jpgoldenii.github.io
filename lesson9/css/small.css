@@ -116,6 +116,7 @@ figcaption{
   justify-content: center;
   max-width: auto;
   margin: 2rem auto;
+  background-color: rgb(210, 221, 238);
 }
 
 div.picture {
@@ -132,6 +133,13 @@ div.picture img {
 div.info p {
   padding: 0px;
   margin: .5rem;
+  font-family: "Roboto Mono";
+  color: navy;
+}
+
+div.info h4, h2 {
+  color: navy;
+  font-family: "Roboto";
 }
 
 main {
