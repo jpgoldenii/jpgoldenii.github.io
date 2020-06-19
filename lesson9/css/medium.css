@@ -1,0 +1,49 @@
+@media only screen and (min-width: 35rem) {
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  /*.weathergallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+
+  figure {
+    margin: 0;
+  }*/
+
+
+  .town {
+    grid-template-columns: repeat(2, 1fr);
+    /*max-width: 670px;*/
+  }
+
+  section:nth-child(odd) .picture {
+    grid-column: 1;
+  }
+
+  section:nth-child(odd) .info {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

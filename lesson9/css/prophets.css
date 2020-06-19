@@ -3,7 +3,7 @@ header {
     font-size: 1.2rem;
     font-family: 'Bree Serif';
     color: rgb(73, 88, 175);
-}
+    }
 
 .cards {
     display: grid;
