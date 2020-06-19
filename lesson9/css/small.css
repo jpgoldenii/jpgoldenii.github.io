@@ -107,6 +107,37 @@ figcaption{
   background-color: white;
 }*/
 
+.story {
+  text-align: left;
+  width: 95%;
+  margin: 50px auto;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+
+  border: 1px solid navy;
+  padding: 0 20px;
+}
+
+#storyimg {
+  display: block;
+  margin: 25px auto;
+  width: 320px;
+  height: 200px;
+  float: right;
+  padding: 10px;
+  box-shadow: 0 0 20px gray;
+}
+
+#title {
+  text-align: left;
+}
+
+#author {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
 /*town data */
 
 .town {
@@ -152,6 +183,9 @@ footer {
   text-align: center;
   background-color: rgb(6, 67, 158);
   padding: 1rem;
+}
+footer a {
+  color: white;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
