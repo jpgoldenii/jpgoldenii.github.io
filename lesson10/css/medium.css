@@ -1,0 +1,60 @@
+@media only screen and (min-width: 32.5em) {
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .weathersum {
+    font-size: .5em;
+  }
+
+  .forecast {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+  }
+
+  .contactus {
+    width: 95%;
+    clear: both;
+    display: grid;
+    margin: 40px;
+    grid-column: 1;
+  }
+#map {
+  display: block;
+  
+}
+  section.contact {
+    grid-column: 2;
+    align-self: center;
+    margin-left: 100px;
+    float: left;
+  }
+
+
+  main,
+  footer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+}

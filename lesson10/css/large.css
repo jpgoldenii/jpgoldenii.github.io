@@ -1,0 +1,38 @@
+  @media only screen and (min-width: 60em) {
+
+    .headings h1 {
+      font-size: 3rem;
+    }
+
+    .navigation {
+      display: flex;
+    }
+
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+
+    .navigation a {
+      text-align: center;
+    }
+
+    .navigation li:first-child {
+      display: none;
+    }
+
+    .weathersum {
+      font-size: .8em;
+    }
+
+    .forecast {
+      max-width: 700px;
+    }
+
+    main,
+    footer {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+    }
+  }
