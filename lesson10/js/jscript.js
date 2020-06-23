@@ -142,9 +142,9 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         document.getElementById('condition').textContent = jsObject.weather[0].main;
-        document.getElementById('temperature').textContent = jsObject.main.temp;
+        document.getElementById('temperature').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('windspeed').textContent = jsObject.wind.speed;
+        document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(0);
 
        
 

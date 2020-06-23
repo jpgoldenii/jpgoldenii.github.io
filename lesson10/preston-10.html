@@ -48,7 +48,7 @@
             <section class="weathersum">
                 <h3> Weather Summary</h3>
                 <p>Currently: <span id="condition"></span></p>
-                <p>Temperature: <span id="temperature"></span>&deg; F</p>
+                <p>Temperature: <span id="temperature">{{jsObject.main.temp.tofixed(0)}}</span>&deg; F</p>
                 <p>Wind Chill: <span class="info" id="chill"></span></p>
                 <p>Humidity: <span id="humidity"></span>&#37; </p>
                 <p>Wind Speed: <span id="windspeed"></span> MPH</p>
