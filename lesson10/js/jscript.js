@@ -24,7 +24,7 @@ hambutton.addEventListener('click', () => {
 }, false);
 
 // Progressive Loading for Images
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+/*const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
     threshold: 0,
@@ -55,7 +55,7 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}
+}*/
 
 // Pancakes in the Park
 var d = new Date();
@@ -67,55 +67,90 @@ if (d.getDay() == 5) {
 }
 
 // towns json fetch
-const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+/*const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
-    const towns = jsonObject['towns'];
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const towns = jsonObject['towns'];
 
-    for (let i = 0; i < towns.length; i++) {
-      let town = towns[i]
-      let townNames = ["Fish Haven", "Preston", "Soda Springs"]
-      if (townNames.includes(town.name)) {
+        for (let i = 0; i < towns.length; i++) {
+            let town = towns[i]
+            let townNames = ["Fish Haven", "Preston", "Soda Springs"]
+            if (townNames.includes(town.name)) {
 
-        let section = document.createElement('section');
-        section.classList.add('town');
-        // info div
-        let info = document.createElement('div');
-        info.classList.add('info');
-        let h2 = document.createElement('h2');
-        let motto = document.createElement('h4');
-        let year = document.createElement('p');
-        let pop = document.createElement('p');
-        let rain = document.createElement('p');
-        h2.textContent = town.name;
-        motto.textContent =  'Motto: ' + town.motto;
-        year.textContent = 'Year Founded: ' + town.yearFounded;
-        pop.textContent = 'Current Population: ' + town.currentPopulation;
-        rain.textContent = 'Average Rainfall: ' + town.averageRainfall;
-        info.appendChild(h2);
-        info.appendChild(motto);
-        info.appendChild(year);
-        info.appendChild(pop);
-        info.appendChild(rain);
-        // picture div
-        let picture = document.createElement('div')
-        picture.classList.add('picture');
-        let img = document.createElement('img');
-        img.setAttribute('src', "images/" + town.photo);
-        picture.appendChild(img);
-        // append info and picture to section
-        section.appendChild(info)
-        section.appendChild(picture)
+                let section = document.createElement('section');
+                section.classList.add('town');
+                // info div
+                let info = document.createElement('div');
+                info.classList.add('info');
+                let h2 = document.createElement('h2');
+                let motto = document.createElement('h4');
+                let year = document.createElement('p');
+                let pop = document.createElement('p');
+                let rain = document.createElement('p');
+                h2.textContent = town.name;
+                motto.textContent = 'Motto: ' + town.motto;
+                year.textContent = 'Year Founded: ' + town.yearFounded;
+                pop.textContent = 'Current Population: ' + town.currentPopulation;
+                rain.textContent = 'Average Rainfall: ' + town.averageRainfall;
+                info.appendChild(h2);
+                info.appendChild(motto);
+                info.appendChild(year);
+                info.appendChild(pop);
+                info.appendChild(rain);
+                // picture div
+                let picture = document.createElement('div')
+                picture.classList.add('picture');
+                let img = document.createElement('img');
+                img.setAttribute('src', "images/" + town.photo);
+                picture.appendChild(img);
+                // append info and picture to section
+                section.appendChild(info)
+                section.appendChild(picture)
 
-        document.getElementById('towns').appendChild(section);
-      }
+                document.getElementById('towns').appendChild(section);
+            }
+        }
+    })*/
 
+// Windchill
+function calcWindChill() {
+    let tempF = parseFloat(document.getElementById("temperature").textContent);
+    let speed = parseFloat(document.getElementById("windspeed").textContent);
+    let result = windChill(tempF, speed);
 
+    document.getElementById("chill").innerHTML = result;
+}
+
+function windChill(tempF, speed) {
+    if (tempF <= 50 && speed > 3) {
+        let f = 35.74 + (0.6215 * tempF - 35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF) * Math.pow(speed, 0.16);
+        return Math.round(f);
+    } else {
+        let f = "N/A";
+        return f;
     }
+}
+calcWindChill()
 
+// OpenWeather jSON Fetch
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=07d41ea5aa3c8676e88469ed8ffafeeb';
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        document.getElementById('condition').textContent = jsObject.weather[0].main;
+        document.getElementById('temperature').textContent = jsObject.main.temp;
+        document.getElementById('humidity').textContent = jsObject.main.humidity;
+        document.getElementById('windspeed').textContent = jsObject.wind.speed;
 
-  })
+       
+
+        /*const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+        const desc = jsObject.weather[0].description;
+        document.getElementById('imagesrc').textContent = imagesrc;
+        document.getElementById('icon').setAttribute('src', imagesrc);
+        document.getElementById('icon').setAttribute('alt', desc);*/
+    });
