@@ -32,6 +32,14 @@
     max-width: 400px;
   }
 
+  #title {
+    text-align: left;
+  }
+
+  .article p {
+    margin-right: 50px;
+  }
+
   .contactus {
     width: 95%;
     clear: both;

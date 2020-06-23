@@ -146,7 +146,7 @@ fetch(apiURL)
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(0);
 
-       
+
 
         /*const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
         const desc = jsObject.weather[0].description;

@@ -154,18 +154,17 @@ td img {
 
 .article {
   text-align: left;
-  width: 95%;
+  width: 85%;
   margin: 50px auto;
   font-family: "Open Sans", sans-serif;
   color: navy;
-
   border: 1px solid navy;
   padding: 0 20px;
 }
 
 #articleimg {
   display: block;
-  margin: 10px auto;
+  margin: 25px auto;
   width: 320px;
   height: 200px;
   float: right;
