@@ -116,39 +116,7 @@ picture.l6photo {
   margin: 0 2%;
 }
 
-table {
-  margin: auto;
-  width: auto;
-}
-
-table,
-th,
-td {
-  border: 1px solid navy;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  padding: 10px;
-  font-family: "Open Sans", sans-serif;
-  color: navy;
-}
-
-th {
-
-  background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
-}
-
-td {
-  background-color: white;
-}
-
-td img {
-  border-radius: 30px;
-}
-
-.forecast {
+.forecast-container {
   display: none;
 }
 

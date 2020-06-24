@@ -55,24 +55,37 @@
             </section>
         </section>
 
-        <div class="forecast">
-            <table id="5day">
-                <tr>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                </tr>
-                <tr>
-                    <td id="fri"><img src="images/sunny.png" alt="sun" width="60">34°F</td>
-                    <td id="sat"><img src="images/sunny.png" alt="sun" width="60">35°F</td>
-                    <td id="sun"><img src="images/rain.png" alt="rain" width="60">45°F</td>
-                    <td id="mon"><img src="images/partiallycloudy.png" alt="partlycloudy" width="60">46°F</td>
-                    <td id="tue"><img src="images/partiallycloudy.png" alt="partlycloudy" width="60">45°F</td>
-                </tr>
-            </table>
+        <div class="forecast-container">
+            <h2>5-day Forcast</h2>
+            <div class="forecast">
+                <div class="col1">
+                    <p><span id="forecast1"></span></p>
+                    <img class="forecasticon" id="icon1">
+                    <p><span id="day1High"></span>&deg;</p>
+                </div>
+                <div class="col2">
+                    <p><span id="forecast2"></span></p>
+                    <img class="forecasticon" id="icon2">
+                    <p><span id="day2High"></span>&deg;</p>
+                </div>
+                <div class="col3">
+                    <p><span id="forecast3"></span></p>
+                    <img class="forecasticon" id="icon3">
+                    <p><span id="day3High"></span>&deg;</p>
+                </div>
+                <div class="col4">
+                    <p><span id="forecast4"></span></p>
+                    <img class="forecasticon" id="icon4">
+                    <p><span id="day4High"></span>&deg;</p>
+                </div>
+                <div class="col5">
+                    <p><span id="forecast5"></span></p>
+                    <img class="forecasticon" id="icon5">
+                    <p><span id="day5High"></span>&deg;</p>
+                </div>
+            </div>
         </div>
+
 
         <div class="article">
             <img id="articleimg" src="images/mantemp2.png" alt="taking temperature">
@@ -112,7 +125,8 @@
         </div>
     </main>
     <footer>
-        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"target="_blank" style="color:white">OpenWeather</a>
+        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"
+            target="_blank" style="color:white">OpenWeather</a>
         <br>
         <div id="date"></div>
     </footer>

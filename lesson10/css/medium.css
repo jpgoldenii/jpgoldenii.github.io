@@ -25,12 +25,38 @@
     font-size: .5em;
   }
 
-  .forecast {
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-    max-width: 400px;
-  }
+  .forecast-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.forecast{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    max-width:900px;
+    width:90%;
+    margin: 0 auto;
+    padding: .7rem .5rem;
+    /*border: 1px solid #0083c6;*/
+}
+
+.forecasticon {
+    max-width: 100px;
+    height: auto;
+    margin-top: .5rem;
+    width: 5rem;
+    background-color: rgb(226, 203, 128);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.forecast div p{
+    margin: .1rem auto;
+}
 
   #title {
     text-align: left;

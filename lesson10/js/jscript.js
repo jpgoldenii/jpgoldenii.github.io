@@ -145,12 +145,25 @@ fetch(apiURL)
         document.getElementById('temperature').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(0);
-
-
-
-        /*const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-        const desc = jsObject.weather[0].description;
-        document.getElementById('imagesrc').textContent = imagesrc;
-        document.getElementById('icon').setAttribute('src', imagesrc);
-        document.getElementById('icon').setAttribute('alt', desc);*/
     });
+
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=07d41ea5aa3c8676e88469ed8ffafeeb'
+fetch(apiURL2)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        console.log(jsObject);
+
+        const forecasts = jsObject.list.filter(x =>
+            x.dt_txt.includes(`18:00:00`));
+
+        for (let i = 0; i < forecasts.length; i++) {
+            document.getElementById(`day${i+1}High`).textContent = Math.round(forecasts[i].main.temp, 0);
+
+            const imagesrc = 'https://openweathermap.org/img/wn/' + forecasts[i].weather[0].icon + '.png';
+            const desc = forecasts[i].weather[0].description;
+            document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
+            document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
+        }
+    });
+
+   
