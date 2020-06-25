@@ -22,7 +22,15 @@
     }
 
     .weathersum {
-      font-size: .8em;
+      font-size: 1em;
+      width: 10em;
+      height: 15em;
+      margin-left: 2em;
+      margin-top: 75px;
+    }
+
+    #map {
+      margin-left: 8em;
     }
 
     .forecast {

@@ -23,38 +23,41 @@
 
   .weathersum {
     font-size: .5em;
+    margin-left: 1.5em;
+    margin-top: 10px;
   }
 
   .forecast-container {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 1rem;
-}
+  }
 
-.forecast{
-    display:flex;
+  .forecast {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    max-width:900px;
-    width:90%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    max-width: 900px;
+    width: 90%;
     margin: 0 auto;
     padding: .7rem .5rem;
-}
-.forecasticon {
+  }
+
+  .forecasticon {
     max-width: 100px;
     height: auto;
     margin-top: .5rem;
     width: 5rem;
     background-color: rgb(236, 213, 136);
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-}
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  }
 
-.forecast div p{
+  .forecast div p {
     margin: .1rem auto;
-}
+  }
 
   #title {
     text-align: left;
@@ -65,21 +68,22 @@
   }
 
   .contactus {
-    width: 95%;
+    width: 100%;
     clear: both;
     display: grid;
-    margin: 40px;
     grid-column: 1;
   }
-#map {
-  display: block;
-  
-}
+
+  #map {
+    display: block;
+
+  }
+
   section.contact {
-    grid-column: 2;
     align-self: center;
-    margin-left: 100px;
+    padding-left: 10px;
     float: left;
+    grid-column: 2;
   }
 
 
