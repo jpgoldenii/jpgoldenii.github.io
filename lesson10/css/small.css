@@ -93,6 +93,7 @@ nav {
   margin: 10px auto;
   position: relative;
   width: 80%;
+  
 }
 
 .weathersum {
@@ -128,6 +129,7 @@ picture.l6photo {
   color: navy;
   border: 1px solid navy;
   padding: 0 20px;
+  background-color: rgb(255, 255, 255);
 }
 
 #articleimg {
