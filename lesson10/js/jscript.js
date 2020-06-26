@@ -158,7 +158,7 @@ fetch(apiURL2)
         let day = 0;
         forecasts.forEach(forecast => {
             let wd = new Date(forecast.dt_txt);
-            document.getElementById(`hightemp${day+1}`).textContent = Math.round(forecast.main.temp_max, 0);
+            document.getElementById(`hightemp${day+1}`).textContent = Math.round(forecast.main.temp, 0);
             document.getElementById(`day${day+1}`).textContent = weekdays[wd.getDay()];
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             const desc = forecast.weather[0].description;
