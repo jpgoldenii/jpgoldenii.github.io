@@ -80,7 +80,9 @@
 
   #map {
     display: block;
-
+    border: 1px solid navy;
+    padding: 5px;
+    background-color: rgb(118, 118, 126);
   }
 
   section.contact {
