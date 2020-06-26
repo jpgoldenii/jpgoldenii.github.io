@@ -105,8 +105,12 @@ fetch(requestURL)
         let picture = document.createElement('div')
         picture.classList.add('picture');
         let img = document.createElement('img');
+        let alt = document.createElement('alt');
+        alt.setAttribute('alt', town.name);
         img.setAttribute('src', "images/" + town.photo);
+        img.setAttribute('alt', `Photo of ${town.name}`);
         picture.appendChild(img);
+        
         // append info and picture to section
         section.appendChild(info)
         section.appendChild(picture)
