@@ -152,12 +152,13 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&uni
 fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
+        console.log(jsObject);
         const forecasts = jsObject.list.filter(x => x.dt_txt.includes(`18:00:00`));
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         let day = 0;
         forecasts.forEach(forecast => {
             let wd = new Date(forecast.dt_txt);
-            document.getElementById(`hightemp${day+1}`).textContent = Math.round(forecast.main.temp, 0);
+            document.getElementById(`hightemp${day+1}`).textContent = Math.round(forecast.main.temp_max, 0);
             document.getElementById(`day${day+1}`).textContent = weekdays[wd.getDay()];
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             const desc = forecast.weather[0].description;
