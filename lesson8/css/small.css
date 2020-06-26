@@ -11,6 +11,7 @@ body {
   height: auto;
   border: 5px solid black;
   border-radius: 100px;
+  margin-right: .5em;
 }
 
 header {
