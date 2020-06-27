@@ -31,7 +31,6 @@ header {
 main h1 {
   font-size: 1.6rem;
   text-align: center;
-  /*margin: 0 0 0 17px;*/
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -100,6 +99,7 @@ nav {
 .weathersum {
   position: absolute;
   margin-right: 25px;
+  margin-top: 50px;
   top: 35px;
   left: 50px;
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
