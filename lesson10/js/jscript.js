@@ -163,9 +163,9 @@ fetch(apiURL2)
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             const desc = forecast.weather[0].description;
 
-            let src = document.createElement('src');
-            let alt = document.createElement('alt');
-
+            let icon = document.createElement('img');
+            
+           
             document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
             day++;
