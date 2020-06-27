@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Site for Preston, Idaho</title>
+    <meta name="description" content="WDD 230 Weather Site - Preston, Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <style>
+        body {
+            background-image: url('images/bgimage.jpg');
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img class="logo" src="images/logo-100.jpg" alt="Weather Site Logo">
+        </picture>
+        <section>
+            <h1>The Stormy Weather Center</h1>
+            <h3>"You've Been Thunderstruck"</h3>
+        </section>
+    </header>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.</div>
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">&#9729; Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="heromain">
+            <h1>Preston Idaho</h1>
+            <picture class="l10photo">
+                <source srcset="images/l10image350.jpg" media="(max-width: 520px)">
+                <source srcset="images/l10image700.jpg" media="(max-width: 960px)">
+                <img id="heroimg" src="images/l10image900.jpg" alt="Lesson10 Image by Todd Diemer">
+
+            </picture>
+            <section class="weathersum">
+                <h3> Weather Summary</h3>
+                <p>Currently: <span id="condition"></span></p>
+                <p>Temperature: <span id="temperature">{{jsObject.main.temp.tofixed(0)}}</span>&deg; F</p>
+                <p>Wind Chill: <span class="info" id="chill"></span></p>
+                <p>Humidity: <span id="humidity"></span>&#37; </p>
+                <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+            </section>
+        </section>
+
+        <div class="forecast-container">
+            <h2>5-day Forcast</h2>
+            <div class="forecast">
+                <div class="col1">
+                    <p><span id="day1"></span></p>
+                    <img class="forecasticon" id="icon1" src="#" alt="desc">
+                    <p><span id="hightemp1"></span>&deg;</p>
+                </div>
+                <div class="col2">
+                    <p><span id="day2"></span></p>
+                    <img class="forecasticon" id="icon2" src="#" alt="desc">
+                    <p><span id="hightemp2"></span>&deg;</p>
+                </div>
+                <div class="col3">
+                    <p><span id="day3"></span></p>
+                    <img class="forecasticon" id="icon3" src="#" alt="desc">
+                    <p><span id="hightemp3"></span>&deg;</p>
+                </div>
+                <div class="col4">
+                    <p><span id="day4"></span></p>
+                    <img class="forecasticon" id="icon4" src="#" alt="desc">
+                    <p><span id="hightemp4"></span>&deg;</p>
+                </div>
+                <div class="col5">
+                    <p><span id="day5"></span></p>
+                    <img class="forecasticon" id="icon5" src="#" alt="desc">
+                    <p><span id="hightemp5"></span>&deg;</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="article">
+            <img id="articleimg" src="images/mantemp2.png" alt="taking temperature">
+            <h3 id="title">Crowned King of Corona</h3>
+            <div id="author">By Jim Golden</div>
+            <p>Temperatures are on the rise. As thousands of people waited in line for hours to be tested for COVID-19
+                in the blistering heat on Wednesday, their level of frustration was also increasing as well.</p>
+            <p>“With the number of COVID-19 cases on the rise, testing has become a big issue,” says Deputy Director
+                Sars Ebola, with the Division of Emergency Management, which oversees the testing site.</p>
+            <p>“The line of cars stretched all the way back to Billy’s Hardware to get a test” Preston resident Marcel
+                Ledbetter said. “I was sure I was going to run out of gas before I got my turn.” With temperatures
+                nearing 95 degrees in the afternoon sun, people were beginning to lose patience. “I was so mad hot, they
+                were thinking I had the Corona. They started hollering out to those folks in the hazmat suits to come
+                over and quarantine me.” Marcel said.</p>
+        </div>
+
+        <div class="contactus">
+            <!--<img id="map" src="images/googlemap300.jpg" alt="Google Map">-->
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d313068.70527094067!2d-111.78790633664951!3d42.07317587024763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1589946932335!5m2!1sen!2sus"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <section class="contact">
+                <h4>For Information</h4>
+                <img src="images/pin.png" alt="Google Map Pin"><span> 30 N 1st E</span>
+                <br>Preston, ID 83263
+                <br>
+                <br>&phone; (208)555.1234
+                <br>&#9993; info@Stormyweathercenter.com
+
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedIn.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"
+            target="_blank" style="color:white">OpenWeather</a>
+        <br>
+        <div id="date"></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/jscript.js"></script>
+
+</body>
+
+</html>
