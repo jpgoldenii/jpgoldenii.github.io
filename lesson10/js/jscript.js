@@ -162,6 +162,10 @@ fetch(apiURL2)
             document.getElementById(`day${day+1}`).textContent = weekdays[wd.getDay()];
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             const desc = forecast.weather[0].description;
+
+            let src = document.createElement('src');
+            let alt = document.createElement('alt');
+
             document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
             day++;
