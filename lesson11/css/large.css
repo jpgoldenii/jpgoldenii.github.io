@@ -43,20 +43,37 @@
       margin: auto;
       text-align: center;
     }
+
+
+    /* Gallery */
+
+    .weathergallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      justify-items: center;
+      grid-gap: 15px;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    figure:hover {
+      box-shadow: 2px 3px 30px grey;
+    }
+
+    /* Town Data */
+
+    #towns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 1rem;
+    }
+
+    .town {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+    }
   }
-
-  /* Gallery */
-
-  .weathergallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 15px;
-}
-figure {
-    margin: 0;
-}
-figure:hover{
- box-shadow: 2px 3px 30px grey;
-}

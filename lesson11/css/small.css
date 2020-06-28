@@ -120,7 +120,7 @@ picture.l10photo {
   display: none;
 }
 
-.article {
+.articlepreston {
   text-align: left;
   width: 85%;
   margin: 50px auto;
@@ -131,7 +131,7 @@ picture.l10photo {
   background-color: rgb(255, 255, 255);
 }
 
-#articleimg {
+#articleprestonimg {
   display: block;
   margin: 25px auto;
   width: 320px;
@@ -140,11 +140,11 @@ picture.l10photo {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-#title {
+#titlepreston {
   text-align: center;
 }
 
-#author {
+#authorpreston {
   font-style: italic;
   font-family: sans-serif;
   font-size: .8em;
@@ -293,4 +293,76 @@ figcaption{
   padding: 0 0 10px 0;
   background-color: white;
 
+}
+/* Home page Story */
+
+.story {
+  text-align: left;
+  width: 90%;
+  margin: 50px auto;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+  border: 1px solid navy;
+  padding: 0 20px;
+}
+
+#storyimg {
+  display: block;
+  margin: 25px auto;
+  width: 320px;
+  height: 200px;
+  float: right;
+  padding: 10px;
+  box-shadow: 0 0 20px gray;
+}
+
+#title {
+  text-align: left;
+}
+
+#author {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+/*town data */
+
+.town {
+  display: grid;
+  grid-gap: 0px;
+  grid-auto-columns: auto;
+  justify-content: center;
+  max-width: 90%;
+  margin: 2rem auto;
+  background-color: rgb(210, 221, 238);
+  box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.picture {
+  margin: 0 auto;
+}
+
+div.picture img {
+  margin: 1rem;
+  width: 20rem;
+  align-content: center;
+  box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.info p {
+  padding: 0px;
+  margin: .5rem;
+  font-family: "Roboto Mono";
+  color: navy;
+}
+
+div.info h4,
+h2 {
+  color: navy;
+  font-family: "Roboto Condensed";
+}
+
+div.info h4 {
+  font-style: italic;
 }
