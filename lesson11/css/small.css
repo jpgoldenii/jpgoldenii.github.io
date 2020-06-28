@@ -355,12 +355,14 @@ div.info p {
   margin: .5rem;
   font-family: "Roboto Mono";
   color: navy;
+  text-align: center;
 }
 
 div.info h4,
 h2 {
   color: navy;
   font-family: "Roboto Condensed";
+  text-align: center;
 }
 
 div.info h4 {
