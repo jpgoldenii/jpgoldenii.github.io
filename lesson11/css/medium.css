@@ -101,3 +101,19 @@
     text-align: center;
   }
 }
+
+/* Storm Center Form */
+form {
+  display: inline-block;
+}
+
+/* Gallery */
+.weathergallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+figure {
+  margin: 0;
+}

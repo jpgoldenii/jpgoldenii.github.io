@@ -23,8 +23,8 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive')
 }, false);
 
-// Progressive Loading for Images
-/*const imagesToLoad = document.querySelectorAll("img[data-src]");
+//Progressive Loading for Images
+const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
     threshold: 0,
@@ -55,7 +55,7 @@ if ('IntersectionObserver' in window) {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
-}*/
+}
 
 // Pancakes in the Park
 var d = new Date();
@@ -67,7 +67,7 @@ if (d.getDay() == 5) {
 }
 
 // towns json fetch
-/*const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -114,7 +114,7 @@ fetch(requestURL)
                 document.getElementById('towns').appendChild(section);
             }
         }
-    })*/
+    })
 
 // Windchill
 function calcWindChill() {
@@ -168,3 +168,8 @@ fetch(apiURL2)
 
         });
     });
+
+    //Rating for Severity
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}

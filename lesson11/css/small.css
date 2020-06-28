@@ -174,3 +174,123 @@ footer {
   background-color: rgb(6, 67, 158);
   padding: 1rem;
 }
+
+/*Storm Center Form */
+form fieldset {
+  margin: 2rem .5rem;
+  text-align: left;
+  max-width: 30rem;
+  border: 1px solid #0343A2;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #0343A2;
+  text-align: left;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: #0343A2;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 2px navy;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  width: 90%;
+  max-width: 20rem;
+  background-color: rgb(230, 223, 223);
+}
+
+
+form label.info {
+  display: block;
+  padding: .6rem 0;
+  color: #0343A2;
+}
+
+form .info {
+  font-family: "Open Sans", sans-serif;
+}
+
+form textarea {
+  font-family: "Open Sans", sans-serif;
+  color: #0343A2;
+  border: solid 2px navy;
+  border-radius: 6px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: navy;
+  margin-bottom: 1%;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(211, 18, 18);
+  color: whitesmoke;
+  border-radius: .5rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  box-shadow: 1px 1px 1px;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+#ticrate {
+  padding-top: 20px;
+}
+
+#ratingvalue {
+  margin: 0 25px;
+}
+
+form label.meter {
+  color: rgb(15, 38, 139);
+}
+
+/* gallery */
+.weathergallery{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(1, 1fr);
+   justify-content: center;
+   width: 100%;
+   margin: 1rem auto;
+}
+figure {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+figcaption{
+  color: #022B3A;
+  font-family: "Open Sans"; 
+  text-align: center;
+  padding: 0 0 10px 0;
+  background-color: white;
+
+}
