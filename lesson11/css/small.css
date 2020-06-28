@@ -23,6 +23,14 @@ header {
   justify-content: center;
 }
 
+header h1 {
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
 .headings {
   display: flex;
   flex-direction: column;
@@ -272,28 +280,30 @@ form label.meter {
 }
 
 /* gallery */
-.weathergallery{
+.weathergallery {
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(1, 1fr);
-   justify-content: center;
-   width: 100%;
-   margin: 1rem auto;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem auto;
 }
+
 figure {
   background-color: white;
   padding: 10px;
   text-align: center;
 }
 
-figcaption{
+figcaption {
   color: #022B3A;
-  font-family: "Open Sans"; 
+  font-family: "Open Sans";
   text-align: center;
   padding: 0 0 10px 0;
   background-color: white;
 
 }
+
 /* Home page Story */
 
 .story {
