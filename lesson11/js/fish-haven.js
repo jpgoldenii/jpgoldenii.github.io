@@ -23,17 +23,6 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive')
 }, false);
 
-
-
-// Pancakes in the Park
-var d = new Date();
-const banner = document.getElementById("pancakes");
-if (d.getDay() == 5) {
-    banner.style.display = "block";
-} else {
-    banner.style.display = "none";
-}
-
 // Windchill
 function calcWindChill() {
     let tempF = parseFloat(document.getElementById("temperature").textContent);
@@ -55,7 +44,7 @@ function windChill(tempF, speed) {
 calcWindChill()
 
 // OpenWeather jSON Fetch
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=07d41ea5aa3c8676e88469ed8ffafeeb';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=07d41ea5aa3c8676e88469ed8ffafeeb';
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -66,7 +55,7 @@ fetch(apiURL)
     });
 
 // OpenWeather Forecast Fetch   
-const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=07d41ea5aa3c8676e88469ed8ffafeeb'
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=07d41ea5aa3c8676e88469ed8ffafeeb'
 fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
