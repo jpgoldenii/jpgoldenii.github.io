@@ -167,6 +167,7 @@ picture.l10photo {
   text-align: center;
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 10px solid gray;
   max-width: 400px;
   width: 90%;
   margin: 0 auto;
@@ -218,6 +219,7 @@ form fieldset {
   margin: 2rem .5rem;
   text-align: left;
   max-width: 30rem;
+  background-color: white;
   border: 1px solid #0343A2;
   border-radius: 10px;
   padding: .5rem 2%;
@@ -342,6 +344,7 @@ figcaption {
   margin: 50px auto;
   font-family: "Open Sans", sans-serif;
   color: navy;
+  background-color: rgb(255, 255, 255);
   border: 1px solid navy;
   padding: 0 20px;
 }
@@ -352,7 +355,6 @@ figcaption {
   width: 320px;
   height: 200px;
   float: right;
-  padding: 10px;
   box-shadow: 0 0 20px gray;
 }
 
