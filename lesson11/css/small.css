@@ -53,7 +53,8 @@ main h1 {
 
 nav {
   margin: 0 auto;
-  background: radial-gradient(rgb(104, 101, 100), rgb(54, 53, 52));
+  /* background: radial-gradient(rgb(104, 101, 100), rgb(54, 53, 52));*/
+  background: radial-gradient(rgb(139, 137, 136), rgb(83, 82, 81));
   text-align: center;
 }
 
@@ -85,7 +86,7 @@ nav {
 }
 
 .active {
-  background-color: rgba(8, 8, 8, 0.2);
+  background-color: rgba(0, 0, 0, 0.438);
 }
 
 .responsive li {
@@ -162,8 +163,33 @@ picture.l10photo {
   font-size: .8em;
 }
 
+#townevents {
+  text-align: center;
+  background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: .7rem .5rem
+}
+
+#townevents hr {
+  border: 1px dashed gray;
+
+}
+
+#townevents h6 {
+  font-size: 2rem;
+  margin: 25px 0px 25px;
+}
+
+
+
 .contactus {
+ background-color: rgb(219, 215, 215);
   width: 95%;
+  margin-bottom: 3rem;
   clear: both;
   display: grid;
 }

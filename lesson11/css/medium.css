@@ -73,9 +73,11 @@
 
   .contactus {
     width: 100%;
+    border: 2px solid navy;
     clear: both;
     display: grid;
     grid-column: 1;
+    align-items: center;
   }
 
   #map {
@@ -84,6 +86,7 @@
     margin-top: 2em;
     padding: 5px;
     background-color: rgb(118, 118, 126);
+
   }
 
   section.contact {
@@ -92,7 +95,6 @@
     float: left;
     grid-column: 2;
   }
-
 
   main,
   footer {
@@ -123,7 +125,7 @@
 
   .town {
     grid-template-columns: repeat(2, 1fr);
-    /*max-width: 670px;*/
+   
   }
 
   section:nth-child(odd) .picture {

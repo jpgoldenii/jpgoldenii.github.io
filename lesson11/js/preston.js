@@ -86,3 +86,25 @@ fetch(apiURL2)
 
         });
     });
+
+// town events
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+        const townsName = towns.filter(towns => (towns.name == 'Preston'));
+
+        const events = townsName[0].events;
+
+        events.forEach(event => {
+            let schedule = document.createElement('p');
+            let linestyle = document.createElement('hr')
+            schedule.innerText = event
+            let eventInfo = document.getElementById('townevents');
+            eventInfo.appendChild(schedule)
+            eventInfo.appendChild(linestyle)
+        })
+    })
