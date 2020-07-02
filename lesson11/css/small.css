@@ -39,6 +39,7 @@ header a {
 main h1 {
   font-size: 1.6rem;
   text-align: center;
+  color: navy;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -96,6 +97,9 @@ nav {
 #heroimg {
   width: 100%;
   height: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .heromain {
