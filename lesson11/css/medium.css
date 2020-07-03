@@ -8,6 +8,7 @@
     font-size: 50px;
   }
 
+  /* Navigation Menu */
   .navigation {
     display: flex;
   }
@@ -25,12 +26,14 @@
     display: none;
   }
 
+  /* Weather Summary */
   .weathersum {
     font-size: .5em;
     margin-left: 1.5em;
     margin-top: 100px;
   }
 
+  /* Five Day Forcast */
   .forecast-container {
     display: flex;
     flex-direction: column;
@@ -64,14 +67,12 @@
     margin: .1rem auto;
   }
 
+  /* Home Page Story */
   #title {
     text-align: left;
   }
 
-  .article p {
-    margin-right: 50px;
-  }
-
+  /* Contact Information */
   .contactus {
     width: 100%;
     border: 2px solid navy;
@@ -97,6 +98,7 @@
     grid-column: 2;
   }
 
+  /* Footer */
   main,
   footer {
     width: 60%;
@@ -126,7 +128,7 @@
 
   .town {
     grid-template-columns: repeat(2, 1fr);
-   
+
   }
 
   section:nth-child(odd) .picture {

@@ -7,6 +7,15 @@ const options = {
 };
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
 
+// Pancakes in the Park
+var d = new Date();
+const banner = document.getElementById("pancakes");
+if (d.getDay() == 5) {
+    banner.style.display = "block";
+} else {
+    banner.style.display = "none";
+}
+
 // Google web fonts
 WebFont.load({
     google: {

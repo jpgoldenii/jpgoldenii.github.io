@@ -7,6 +7,15 @@ const options = {
 };
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
 
+// Pancakes in the Park
+var d = new Date();
+const banner = document.getElementById("pancakes");
+if (d.getDay() == 5) {
+    banner.style.display = "block";
+} else {
+    banner.style.display = "none";
+}
+
 // Google web fonts
 WebFont.load({
     google: {
@@ -59,7 +68,7 @@ const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&uni
 fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
-        //console.log(jsObject);
+
         const forecasts = jsObject.list.filter(x => x.dt_txt.includes(`18:00:00`));
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         let day = 0;

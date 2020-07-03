@@ -57,7 +57,7 @@ if ('IntersectionObserver' in window) {
     });
 }
 
-//Pancakes in the Park
+// Pancakes in the Park
 var d = new Date();
 const banner = document.getElementById("pancakes");
 if (d.getDay() == 5) {

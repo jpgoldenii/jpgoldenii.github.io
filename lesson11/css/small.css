@@ -43,6 +43,7 @@ main h1 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Pancakes Preston */
 #pancakes {
   text-align: center;
   font-style: italic;
@@ -52,9 +53,9 @@ main h1 {
   background-color: rgb(224, 180, 35);
 }
 
+/* Navigation Menu */
 nav {
   margin: 0 auto;
-  /* background: radial-gradient(rgb(104, 101, 100), rgb(54, 53, 52));*/
   background: radial-gradient(rgb(139, 137, 136), rgb(83, 82, 81));
   text-align: center;
 }
@@ -94,12 +95,13 @@ nav {
   display: block;
 }
 
+/* Hero Image */
 #heroimg {
   width: 100%;
   height: auto;
   background-color: whitesmoke;
   padding: 1rem;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .heromain {
@@ -112,6 +114,13 @@ nav {
   color: navy;
 }
 
+picture.l10photo {
+  display: block;
+  width: 96%;
+  margin: 0 2%;
+}
+
+/* Weather Summary */
 .weathersum {
   position: absolute;
   margin-right: 25px;
@@ -127,16 +136,12 @@ nav {
   text-align: left;
 }
 
-picture.l10photo {
-  display: block;
-  width: 96%;
-  margin: 0 2%;
-}
-
+/* Five Day Forcast */
 .forecast-container {
   display: none;
 }
 
+/* Feature Article */
 .articletown {
   text-align: left;
   width: 85%;
@@ -167,10 +172,11 @@ picture.l10photo {
   font-size: .8em;
 }
 
+/* Town Events */
 #townevents {
   text-align: center;
   background: radial-gradient(rgb(231, 201, 102), rgb(197, 153, 70));
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border: 10px solid gray;
   max-width: 400px;
   width: 90%;
@@ -189,10 +195,9 @@ picture.l10photo {
   margin: 25px 0px 25px;
 }
 
-
-
+/* Contact Information */
 .contactus {
- background-color: rgb(219, 215, 215);
+  background-color: rgb(219, 215, 215);
   width: 95%;
   margin-bottom: 3rem;
   clear: both;
@@ -210,6 +215,7 @@ section.contact {
   text-align: center;
 }
 
+/* Footer */
 footer {
   color: white;
   font-size: 20px;
@@ -257,7 +263,6 @@ form label.top select {
   max-width: 20rem;
   background-color: rgb(230, 223, 223);
 }
-
 
 form label.info {
   display: block;
@@ -337,11 +342,9 @@ figcaption {
   text-align: center;
   padding: 0 0 10px 0;
   background-color: white;
-
 }
 
 /* Home page Story */
-
 .story {
   text-align: left;
   width: 90%;
@@ -373,7 +376,6 @@ figcaption {
 }
 
 /*town data */
-
 .town {
   display: grid;
   grid-gap: 0px;
