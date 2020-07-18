@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page for Scoots Site</title>
+    <meta name="description" content="WDD 230 Scoots - Home">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo300.jpg" alt="Scoots Site Logo"></a>
+        </div>
+
+        <section>
+            <a href="index.html">
+                <h1>Motor Scooter Rentals </h1>
+            </a>
+            <h3>Cozumel's Scooter Headquarters</h3>
+        </section>
+
+        <section class="weathersum">
+            <h3><span id="temperature">{{jsObject.main.temp.tofixed(0)}}</span>&deg; F</h3>
+            <hr>
+            <p>Currently: <span id="condition"></span></p>
+            <p>Humidity: <span id="humidity"></span>&#37; </p>
+            <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+
+        <div class="hero-image">
+            <img src="images/beachhero.jpg" alt="beach">
+            <div class="hero-text">
+                <h1>Welcome to Cozumel</h1>
+                <p>Rent a scooter or vehicle to see the many
+                    things our island has to offer.</p>
+                <button><a href="reservations.html">Make your Reservation</a></button>
+            </div>
+        </div>
+
+        <div class="forecast-container">
+            <h2>5-day Forcast</h2>
+            <div class="forecast">
+                <div class="col1">
+                    <p><span id="day1"></span></p>
+                    <img class="forecasticon" id="icon1" src="#" alt="desc">
+                    <p><span id="hightemp1"></span>&deg;</p>
+                </div>
+                <div class="col2">
+                    <p><span id="day2"></span></p>
+                    <img class="forecasticon" id="icon2" src="#" alt="desc">
+                    <p><span id="hightemp2"></span>&deg;</p>
+                </div>
+                <div class="col3">
+                    <p><span id="day3"></span></p>
+                    <img class="forecasticon" id="icon3" src="#" alt="desc">
+                    <p><span id="hightemp3"></span>&deg;</p>
+                </div>
+                <div class="col4">
+                    <p><span id="day4"></span></p>
+                    <img class="forecasticon" id="icon4" src="#" alt="desc">
+                    <p><span id="hightemp4"></span>&deg;</p>
+                </div>
+                <div class="col5">
+                    <p><span id="day5"></span></p>
+                    <img class="forecasticon" id="icon5" src="#" alt="desc">
+                    <p><span id="hightemp5"></span>&deg;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fleethead">Introducing Our Fleet:</div>
+
+        <div class="fleet">
+            <figure class="fleetpic">
+                <img src="images/hondascooter.jpg" alt="Motor Scooter">
+                <figcaption>Honda Motor Scooters - Starting as low as $20</figcaption>
+                <button><a href="rentals.html">Learn More</a></button>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/hondaatv.jpg" alt="ATV">
+                <figcaption>Side-by-Side ATVs - Starting at $50</figcaption>
+                <button><a href="rentals.html">Learn More</a></button>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/jeep.jpg" alt="Jeep">
+                <figcaption>Jeep Rentals - Starting at $70</figcaption>
+                <button><a href="rentals.html">Learn More</a></button>
+            </figure>
+
+        </div>
+
+        <div class="contactus">
+
+            <div class="contact">
+                <!--<h5>Contact Information</h5>-->
+                <img src="images/pin.png" alt="Google Map Pin"><span> 77600 San Miguel de Cozumel</span>
+                <br>Q.R., Mexico
+                <br>
+                <br>&phone; (800)555.1234
+                <br>&#9993; info@Scoots.com
+            </div>
+            <div class="shop">
+                <img src="images/scootshop150.jpg" alt="Scooter shop">
+            </div>
+            <!--<div class="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                  </div>-->
+
+            <div class="socialmedia">
+                <div id="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                    <br>
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedIn.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"
+            target="_blank" style="color:white">OpenWeather</a>
+        <br>
+        <div id="date"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>

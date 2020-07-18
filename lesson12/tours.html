@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page for Scoots Site</title>
+    <meta name="description" content="WDD 230 Scoots - Home">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo300.jpg" alt="Scoots Site Logo"></a>
+        </div>
+
+        <section>
+            <a href="index.html">
+                <h1>Motor Scooter Rentals </h1>
+            </a>
+            <h3>Cozumel's Scooter Headquarters</h3>
+        </section>
+
+        <section class="weathersum">
+            <h3><span id="temperature">{{jsObject.main.temp.tofixed(0)}}</span>&deg; F</h3>
+            <hr>
+            <p>Currently: <span id="condition"></span></p>
+            <p>Humidity: <span id="humidity"></span>&#37; </p>
+            <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li class="active"><a href="#">Tours</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+
+
+        <div class="toptours">
+            <img id="toursimg" src="images/toursmain.jpg" alt="Tours Image">
+        </div>
+
+        <div class="toursinfo">
+            <h2>Top Tours on the Island of Cozumel</h2>
+            <!--<h3 id="titletown">Crowned King Of Corona</h3>-->
+
+            <p>Come vacation in Cozumel and make memories that will last a lifetime. Cozumel is a Mexican island in the
+                Caribbean Sea with over 60 miles of beaches and plenty of undeveloped jungle to explore.</p>
+            <p>Famed for its scuba diving, Cozumel is home to dolphins, manatees and sea turtles. Make your plans today to discover the island’s submerged
+                sculptures, underwater caverns, and untouched nature.</p>
+            <p>The laid-back vibe will make you feel relaxed, but ready for the island’s next adventure.</p>
+            <p>So, check out these exciting tours before setting off for Cozumel.</p>
+        </div>
+
+        <div class="toursgallery">
+            <figure>
+                <a href="http://www.grandcozumeldiving.com/" target="_blank"><img src="images/grandcozumel.jpg"
+                        alt="Grand Cozumel Diving"></a>
+                <figcaption>Grand Cozumel Diving</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.karmatrails.com/" target="_blank"><img src="images/karmatrails.jpg" alt="Karma Trails"></a>
+                <figcaption>Karma Trails</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.dolphinaris.com/" target="_blank"><img src="images/dolphinaris.jpg" alt="Dolphinaris"></a>
+                <figcaption>Dolphinaris</figcaption>
+            </figure>
+            <figure>
+                <a href="https://stingraybeach.com/" target="_blank"><img src="images/stingray.jpg" alt="Stingray Beach"></a>
+                <figcaption>Stingray Beach</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.cozudive.com/" target="_blank"><img src="images/cozudive.jpg" alt="CozuDive"></a>
+                <figcaption>CozuDive</figcaption>
+            </figure>
+            <figure>
+                <a href="https://divewithmartin.com/" target="_blank"><img src="images/divemartin.jpg" alt="Dive with Martin"></a>
+                <figcaption>Dive with Martin</figcaption>
+            </figure>
+
+        </div>
+
+        <div class="contactus">
+
+            <div class="contact">
+                <!--<h5>Contact Information</h5>-->
+                <img src="images/pin.png" alt="Google Map Pin"><span> 77600 San Miguel de Cozumel</span>
+                <br>Q.R., Mexico
+                <br>
+                <br>&phone; (800)555.1234
+                <br>&#9993; info@Scoots.com
+            </div>
+            <div class="shop">
+                <img src="images/scootshop150.jpg" alt="Scooter shop">
+            </div>
+            <!--<div class="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                  </div>-->
+
+            <div class="socialmedia">
+                <div id="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                    <br>
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedIn.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"
+            target="_blank" style="color:white">OpenWeather</a>
+        <br>
+        <div id="date"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/tours.js"></script>
+
+</body>
+
+</html>

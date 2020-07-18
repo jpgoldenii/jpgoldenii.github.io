@@ -1,0 +1,94 @@
+  @media only screen and (min-width: 1028px) {
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    .logo img {
+      max-width: 200px;
+      height: auto;
+      margin-left: 5em;
+    }
+
+    .navigation {
+      display: flex;
+      font-size: 20px;
+    }
+
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+
+    .navigation a {
+      text-align: center;
+    }
+
+    .navigation li:first-child {
+      display: none;
+    }
+
+    .hero-text {
+      font-size: 1em;
+      top: 58%;
+      left: 80%;
+    }
+
+    .fleet {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .fleetpic button {
+      font-size: 1.2rem;
+    }
+
+    /* Reservation Form */
+    #scooterclip {
+      margin-right: 5em;
+    }
+
+    /* Tours Page */
+    .toursinfo {
+      margin: 50px 300px;
+
+    }
+
+    /* Contact Information */
+    .contact {
+      margin: 0em;
+    }
+
+    .contactbutton {
+      margin-left: 3em;
+    }
+
+    .shop {
+      justify-content: center;
+      margin-top: 1em;
+    }
+
+    .socialmedia {
+      margin-left: 3em;
+      padding-top: 1.5em;
+    }
+
+    /* Footer */
+    footer {
+      color: green;
+      margin: auto;
+      text-align: center;
+
+    }
+
+    /* Gallery */
+    .toursgallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      grid-gap: 15px;
+    }
+
+    figure {
+      margin: 0;
+    }
+  }

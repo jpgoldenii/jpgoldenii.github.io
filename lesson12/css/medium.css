@@ -1,0 +1,192 @@
+@media only screen and (min-width: 32.5em) {
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h3 {
+    font-size: 3rem;
+    margin: 15px 0px;
+  }
+
+  .logo img {
+    max-width: 125px;
+    height: auto;
+    margin-left: 2em;
+
+  }
+
+  /* Navigation Menu */
+  .navigation {
+    display: flex;
+    font-size: medium;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  /* Weather Summary */
+  .weathersum {
+    text-align: left;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    font-size: .8em;
+    padding: .4rem;
+  }
+
+  .hero-text {
+    font-size: .6em;
+    top: 45%;
+    left: 80%;
+  }
+
+  /* Five Day Forcast */
+  .forecast-container {
+    display: flex;
+    text-align: center;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+
+  .forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 10px solid #ccb68f;
+    max-width: 900px;
+    width: 60%;
+    margin: 0 auto;
+    padding: .7rem .5rem;
+  }
+
+  .forecasticon {
+    max-width: 100px;
+    height: auto;
+    margin-top: .5rem;
+    width: 5rem;
+    background-color: #ccb68f;
+  }
+
+  .forecast div p {
+    margin: .1rem auto;
+  }
+
+  .fleet {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fleet img {
+    width: auto;
+  }
+
+  figcaption {
+    font-size: 1.2rem;
+  }
+
+  .fleetpic button {
+    font-size: large;
+  }
+
+  /* Reservation Form */
+  #scooterclip {
+    display: block;
+    float: right;
+  }
+
+  .details {
+    float: left;
+  }
+
+  .personal {
+    float: right;
+  }
+
+  form input.submitBtn {
+    max-width: 12em;
+    padding: 12px 0px;
+    margin: 0 0 15px 215px;
+  }
+
+  /* Tours Page */
+  .toursinfo {
+    margin: 50px 200px;
+  }
+
+  /* Contact Page */
+
+  .locationmaps {
+    padding: 40px;
+  }
+  
+  .map {
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+  }
+
+  /* Contact Information */
+  .contactus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact {
+    padding: 1em;
+    margin-top: .7em;
+  }
+
+  .shop {
+    display: grid;
+    grid-column: 2;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+  }
+
+  .socialmedia {
+    grid-column: 3;
+    padding-top: 2.5em;
+    padding-bottom: 0em;
+    margin-left: 0em;
+  }
+
+  /* Footer */
+  footer {
+    font-size: large;
+    text-align: center;
+  }
+
+  /* Gallery */
+  .toursgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figure img {
+    width: 100%;
+  }
+
+  .toursgallery figure:hover {
+    box-shadow: 2px 3px 30px grey;
+  }
+}
