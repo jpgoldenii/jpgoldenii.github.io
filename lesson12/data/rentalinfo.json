@@ -33,21 +33,20 @@
       "fullDayWalk": "$80"
     },
     {
-      "type": "Jeep Wrangler - 2 door",
-      "capacity": "4",
-      "halfDayReserv": "$60",
-      "fullDayReserv": "$85",
-      "halfDayWalk": "$70",
-      "fullDayWalk": "$90"
-    },
-    {
       "type": "Jeep Wrangler - 4 door with a/c",
       "capacity": "5",
       "halfDayReserv": "$70",
       "fullDayReserv": "$100",
       "halfDayWalk": "$85",
       "fullDayWalk": "$125"
-    }     
-    
+    },    
+    {
+      "type": "Jeep Wrangler - 2 door",
+      "capacity": "4",
+      "halfDayReserv": "$60",
+      "fullDayReserv": "$85",
+      "halfDayWalk": "$70",
+      "fullDayWalk": "$90"
+    }
   ]
 }

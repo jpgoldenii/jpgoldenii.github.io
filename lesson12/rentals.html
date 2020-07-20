@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rentals Page for Scoots Site</title>
+    <meta name="description" content="WDD 230 Scoots - Rentals">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo300.jpg" alt="Scoots Site Logo"></a>
+        </div>
+
+        <section>
+            <a href="index.html">
+                <h1>Motor Scooter Rentals </h1>
+            </a>
+            <h3>Cozumel's Scooter Headquarters</h3>
+        </section>
+
+        <section class="weathersum">
+            <h3><span id="temperature">{{jsObject.main.temp.tofixed(0)}}</span>&deg; F</h3>
+            <hr>
+            <p>Currently: <span id="condition"></span></p>
+            <p>Humidity: <span id="humidity"></span>&#37; </p>
+            <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="burger" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li class="active"><a href="#">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+
+        <section class="rentalinfo">
+            <h2>Reliable Bikes at Affordable Prices</h2>
+            <div class="rentalDiv">
+               
+                <p>Our rental shops seek to provide riders with all the equipment they will need to enjoy their island adventures.</p>
+                <p>Please complete the online reservation forms and we will take care of the rest.</p>
+                <p>For your safety, all scooter rentals include helmets.</p>
+                
+            </div>
+            <div class="table"></div>
+        </section>
+
+
+        <!--<div class="fleethead"> Our Fleet:</div> -->
+
+        <div class="fleet">
+            <figure class="fleetpic">
+                <img src="images/hondametro.jpg" alt="Honda Metropolitan">
+                <figcaption>Honda Metropolitan - Single Rider</figcaption>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/hondadio.jpg" alt="Honda Dio">
+                <figcaption>Honda Dio - 2 Riders</figcaption>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/hondascooter.jpg" alt="Honda PCX150">
+                <figcaption>Honda PCX150 - 2 Riders</figcaption>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/hondaatv.jpg" alt="Honda ATV">
+                <figcaption>Honda Pioneer ATV - Up to 4 Riders</figcaption>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/jeep.jpg" alt="Jeep 4-door">
+                <figcaption>Jeep Wrangler 4-Door - Up to 5 Passengers</figcaption>
+            </figure>
+            <figure class="fleetpic">
+                <img src="images/jeep2.jpg" alt="2-door Jeep">
+                <figcaption>Jeep Wrangler 2-Door - Up to 4 Passengers</figcaption>
+            </figure>
+        </div>
+
+
+
+        <div class="contactus">
+
+            <div class="contact">
+                <!--<h5>Contact Information</h5>-->
+                <img src="images/pin.png" alt="Google Map Pin"><span> 77600 San Miguel de Cozumel</span>
+                <br>Q.R., Mexico
+                <br>
+                <br>&phone; (800)555.1234
+                <br>&#9993; info@Scoots.com
+            </div>
+            <div class="shop">
+                <img src="images/scootshop150.jpg" alt="Scooter shop">
+            </div>
+            <!--<div class="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                  </div>-->
+
+            <div class="socialmedia">
+                <div id="contactbutton">
+                    <a href="contact.html"><img src="images/contactus.png" alt="Contact Us Button"></a>
+                    <br>
+                    <a href="https://www.facebook.com" target="Blank"><img src="images/facebook.png"
+                            alt="Link to Facebook"></a>
+                    <a href="https://www.twitter.com" target="Blank"><img src="images/twitter.png"
+                            alt="Link to Twitter"></a>
+                    <a href="https://www.linkedin.com" target="Blank"><img src="images/linkedIn.png"
+                            alt="Link to LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        &copy; 2020 | Jim Golden | North Carolina | Realtime weather provided by <a href="https://openweathermap.org/"
+            target="_blank" style="color:white">OpenWeather</a>
+        <br>
+        <div id="date"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/rentals.js"></script>
+
+</body>
+
+</html>

@@ -55,7 +55,8 @@
   .forecast-container {
     display: flex;
     text-align: center;
-    font-size: small;
+    font-size: 20px;
+    color: navy;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 1rem;
@@ -103,8 +104,10 @@
 
   /* Reservation Form */
   #scooterclip {
-    display: block;
+    display: inline-flex;
     float: right;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 5px solid rgb(126, 126, 134);
   }
 
   .details {
@@ -157,6 +160,10 @@
     margin-top: 2em;
   }
 
+  .shop img {
+    border: 4px solid white;
+  }
+
   .socialmedia {
     grid-column: 3;
     padding-top: 2.5em;
@@ -189,4 +196,26 @@
   .toursgallery figure:hover {
     box-shadow: 2px 3px 30px grey;
   }
+}
+
+ /*rentals page*/
+
+ .rentalinfo h3 {
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+.rentalDiv {
+  width: 90%;
+}
+
+.rentalDiv p {
+  padding-left: 10px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+table {
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }

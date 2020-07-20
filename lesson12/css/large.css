@@ -74,7 +74,7 @@
 
     /* Footer */
     footer {
-      color: green;
+      color: white;
       margin: auto;
       text-align: center;
 
@@ -91,4 +91,20 @@
     figure {
       margin: 0;
     }
+  }
+
+   /*rentals page*/
+
+   .rentalDiv {
+    /*width: 80%;*/
+    font-size: 1.5rem;
+  }
+
+  .rentalDiv p {
+   padding-left: 30px;
+  }
+
+  th, td {
+    padding: 15px;
+    font-size: 1.5rem;
   }
