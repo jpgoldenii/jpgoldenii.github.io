@@ -93,18 +93,19 @@
     }
   }
 
-   /*rentals page*/
+  /*rentals page*/
 
-   .rentalDiv {
+  .rentalDiv {
     /*width: 80%;*/
     font-size: 1.5rem;
   }
 
   .rentalDiv p {
-   padding-left: 30px;
+    padding-left: 30px;
   }
 
-  th, td {
+  th,
+  td {
     padding: 15px;
     font-size: 1.5rem;
   }

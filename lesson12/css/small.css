@@ -104,7 +104,7 @@ nav {
 
 /* The hero image */
 .hero-image {
-position: relative;
+  position: relative;
 }
 
 .hero-image img {
@@ -272,6 +272,14 @@ footer {
   background-color: rgb(255, 255, 255);
 }
 
+.resagree {
+  list-style: square;
+}
+
+.resagree li {
+  margin-bottom: .5em;
+}
+
 .resinfo h2 {
   text-align: center;
 }
@@ -398,6 +406,7 @@ form label.top input:required:valid {
   justify-content: space-evenly;
   margin: 50px auto;
 }
+
 .contactinfo {
   color: navy;
 }
@@ -462,6 +471,7 @@ figure {
   background-color: white;
   text-align: center;
 }
+
 figure img {
   width: 95%;
 }
@@ -486,6 +496,7 @@ figure img {
   color: navy;
   margin: 5px;
 }
+
 .rentalDiv p {
   padding-left: 5px;
   padding-right: 5px;
@@ -499,19 +510,54 @@ table {
   border: 7px solid #b8965f;
   border-collapse: collapse;
   margin: 20px;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .headbackground {
-   background-color: #b8965f;
- }
+  background-color: #b8965f;
+}
 
 table h2 {
   color: navy;
-  
+
 }
 
-th, td {
+th,
+td {
   padding: 5px;
   border: 2.5px solid #b8965f;
+}
+
+/*Attribution Page */
+.attribution h2 {
+  text-align: center;
+  color: navy;
+}
+
+.attrib1 {
+  list-style: square;
+  text-align: left;
+  width: 85%;
+  margin: 50px auto;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+  padding: 0 20px;
+}
+
+.attrib1 li {
+  margin-bottom: 1em;
+}
+
+.attrib2 {
+  list-style: square;
+  text-align: left;
+  width: 85%;
+  margin: 50px auto;
+  font-family: "Open Sans", sans-serif;
+  color: navy;
+  padding: 0 20px;
+}
+
+.attrib2 li {
+  margin-bottom: 1em;
 }

@@ -45,7 +45,7 @@ fetch(requestURL)
 
     })
     .then(function (jsonObject) {
-      
+
         const rentalinfo = jsonObject['rentalinfo'];
         let table = document.createElement('table');
         let thead = document.createElement('thead');
@@ -55,7 +55,7 @@ fetch(requestURL)
         //
         let tr1 = document.createElement('tr')
         let tableinfo = document.createElement('th');
-        
+
         //
         let reservation = document.createElement('th');
         let walkin = document.createElement('th');
@@ -88,7 +88,7 @@ fetch(requestURL)
 
         table.appendChild(thead);
         thead.appendChild(tr1);
-       
+
         tr1.appendChild(tableinfo);
         thead.appendChild(tr);
         tr.appendChild(th);
@@ -102,7 +102,7 @@ fetch(requestURL)
         tr2.appendChild(halfday2);
         tr2.appendChild(fullday2);
 
-        
+
 
 
         for (let i = 0; i < rentalinfo.length; i++) {
