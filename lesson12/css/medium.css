@@ -93,12 +93,12 @@
     width: auto;
   }
 
-  figcaption {
-    font-size: 1.2rem;
+  .fleet h4 {
+    font-size: 1.5rem;
   }
 
-  .fleetpic button {
-    font-size: large;
+  .fleetbutton {
+font-size: 1.5rem;
   }
 
   /* Reservation Form */

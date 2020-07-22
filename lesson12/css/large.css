@@ -38,9 +38,9 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .fleetpic button {
+   /* .fleetbutton {
       font-size: 1.2rem;
-    }
+    }*/
 
     /* Reservation Form */
     #scooterclip {
