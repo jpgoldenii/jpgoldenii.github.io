@@ -46,7 +46,6 @@
     /* Tours Page */
     .toursinfo {
       margin: 50px 300px;
-
     }
 
     /* Contact Information */
@@ -76,7 +75,7 @@
 
     }
 
-    /* Gallery */
+    /* Tour Gallery */
     .toursgallery {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -90,9 +89,7 @@
   }
 
   /*rentals page*/
-
   .rentalDiv {
-    /*width: 80%;*/
     font-size: 1.5rem;
   }
 

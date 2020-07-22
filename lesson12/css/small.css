@@ -89,7 +89,6 @@ nav {
 }
 
 .navigation a:hover {
-  /*color: #6d6c6a;*/
   color: #b8965f;
   background-color: white;
 }
@@ -445,7 +444,6 @@ form input.contactBtn {
   color: navy;
 }
 
-
 #creditcards {
   display: block;
   margin-left: auto;
@@ -453,7 +451,7 @@ form input.contactBtn {
   padding-bottom: 1.5em;
 }
 
-/* gallery */
+/* Tour gallery */
 .toursgallery {
   display: grid;
   grid-gap: 0px;
@@ -472,8 +470,12 @@ figure img {
   width: 95%;
 }
 
-/*rentals page*/
+.toursgallery figcaption {
+  color: navy;
+  font-weight: 700;
+}
 
+/*rentals page*/
 .rentalinfo {
   text-align: center;
   width: auto;
@@ -522,15 +524,26 @@ td {
   border: 2.5px solid #b8965f;
 }
 
+.fleetpic figcaption {
+  font-weight: 700;
+  color: navy;
+  margin-bottom: 1em;
+}
+
 /*Attribution Page */
 .attribution h2 {
   text-align: center;
   color: navy;
 }
 
+.attribution h3 {
+  text-align: left;
+  color: navy;
+  margin-left: 150px;
+}
+
 .attrib1 {
   list-style: square;
-  text-align: left;
   width: 85%;
   margin: 50px auto;
   font-family: "Open Sans", sans-serif;
