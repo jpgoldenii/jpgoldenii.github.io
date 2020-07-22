@@ -122,25 +122,22 @@ nav {
   color: navy;
 }
 
-.hero-text button {
+.resbutton {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 3px 10px;
-
+  text-decoration: none;
   color: white;
-
   background-color: green;
   text-align: center;
   cursor: pointer;
 }
 
-.hero-text button:hover {
+.resbutton:hover {
   background-color: greenyellow;
   color: navy;
 }
-
-
 
 /* Five Day Forcast */
 .forecast-container {
@@ -180,19 +177,19 @@ figcaption {
   padding: 10px;
 }
 
-.fleetpic button {
+.fleetbutton {
   border: none;
   outline: 0;
   display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
+  padding: 3px 10px;
+  text-decoration: none;
   color: white;
   background-color: green;
   text-align: center;
   cursor: pointer;
 }
 
-.fleetpic button:hover {
+.fleetbutton:hover {
   background-color: greenyellow;
   color: navy;
 }
