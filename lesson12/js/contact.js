@@ -33,4 +33,4 @@ const options = {
     year: 'numeric'
 };
 
-document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
+document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options)
